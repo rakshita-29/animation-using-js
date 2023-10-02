@@ -1,0 +1,12 @@
+body {
+    background: url("/img/bg.jpg");
+    
+}
+
+.heading{
+    text-align: center;
+    color:#ffffff ;
+    font-size: 4.5rem;
+    margin: 20px;
+
+}
