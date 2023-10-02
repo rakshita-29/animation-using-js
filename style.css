@@ -1,6 +1,7 @@
 body {
-    background: url("/img/bg.jpg");
-    
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .heading{
@@ -9,4 +10,10 @@ body {
     font-size: 4.5rem;
     margin: 20px;
 
+}
+.dot {
+    position: absolute;
+    background-color: #48b2f9;
+    border-radius: 50%;
+    z-index: -1;
 }
