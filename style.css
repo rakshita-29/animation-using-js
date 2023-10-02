@@ -17,3 +17,23 @@ body {
     border-radius: 50%;
     z-index: -1;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 330px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #f3dfdff6;
+    font-size: 20px;
+    cursor: pointer;
+}
+
