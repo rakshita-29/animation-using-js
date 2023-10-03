@@ -37,3 +37,7 @@ body {
     cursor: pointer;
 }
 
+.box:hover{
+    background-color: #d3d0d0;
+}
+
